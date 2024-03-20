@@ -1,0 +1,18 @@
+newmtl Stone1Mtl
+Material Color
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0 
+
+d 1
+
+Ns 0
+
+map_Ka Stone1_diff.png
+map_Kd Stone1_diff.png
+map_d Stone1_diff.png
+
+map_Bump Stone1_nmap.png
+
+map_Ns Stone1_spec.png
+

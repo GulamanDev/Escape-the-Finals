@@ -1,0 +1,124 @@
+newmtl Tarp1Mtl
+Material Color
+Ka 0.373615 0.368591 0.383775
+Kd 0.373615 0.368591 0.383775
+Ks 0.0161167 0.0159 0.016555 
+
+d 1
+
+Ns 0
+
+map_Ka Tarp1_diff.png
+map_Kd Tarp1_diff.png
+map_d Tarp1_diff.png
+
+map_Bump Tarp1_nmap.png
+
+map_Ns Tarp1_spec.png
+
+newmtl Tarp2Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0431373 0.0431373 0.0431373 
+
+d 1
+
+Ns 0
+
+map_Ka Tarp2_diff.png
+map_Kd Tarp2_diff.png
+map_d Tarp2_diff.png
+
+newmtl LegsLow1Mtl
+Material Color
+Ka 0.373615 0.368591 0.383775
+Kd 0.373615 0.368591 0.383775
+Ks 0.147981 0.145991 0.152005 
+
+d 1
+
+Ns 0
+
+newmtl Crate1Mtl
+Material Color
+Ka 0.373615 0.368591 0.383775
+Kd 0.373615 0.368591 0.383775
+Ks 0.0322335 0.0318 0.03311 
+
+d 1
+
+Ns 0
+
+map_Ka Crate1_diff.png
+map_Kd Crate1_diff.png
+map_d Crate1_diff.png
+
+map_Bump Crate1_nmap.png
+
+map_Ns Crate1_spec.png
+
+newmtl CardboardBoxes1Mtl
+Material Color
+Ka 0.612066 0.275833 0.14198
+Kd 0.612066 0.275833 0.14198
+Ks 0.0264028 0.0118987 0.00612464 
+
+d 1
+
+Ns 0
+
+map_Ka Tarp1_diff.png
+map_Kd Tarp1_diff.png
+map_d Tarp1_diff.png
+
+map_Bump Tarp1_nmap.png
+
+map_Ns Tarp1_spec.png
+
+newmtl Cover1Mtl
+Material Color
+Ka 0.0111261 0.0869013 0.493616
+Kd 0.0111261 0.0869013 0.493616
+Ks 0.000479949 0.00374868 0.0212932 
+
+d 1
+
+Ns 0
+
+map_Ka Tarp1_diff.png
+map_Kd Tarp1_diff.png
+map_d Tarp1_diff.png
+
+map_Bump Tarp1_nmap.png
+
+map_Ns Tarp1_spec.png
+
+newmtl MetalTable1Mtl
+Material Color
+Ka 0.00258583 0.00258583 0.00258583
+Kd 0.00258583 0.00258583 0.00258583
+Ks 0.00172388 0.00172388 0.00172388 
+
+d 1
+
+Ns 255
+
+map_Ka MetalTable1_diff.png
+map_Kd MetalTable1_diff.png
+map_d MetalTable1_diff.png
+
+map_Bump MetalTable1_nmap.png
+
+map_Ns MetalTable1_spec.png
+
+newmtl CrossbarsLow1Mtl
+Material Color
+Ka 0.124741 0.124741 0.124741
+Kd 0.124741 0.124741 0.124741
+Ks 0.0494072 0.0494072 0.0494072 
+
+d 1
+
+Ns 0
+
