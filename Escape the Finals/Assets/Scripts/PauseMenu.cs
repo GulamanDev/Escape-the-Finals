@@ -42,6 +42,8 @@ public class pause : MonoBehaviour
     }
     public void resumeGame()
     {
+        PostProcessVolume ppVolume = Camera.main.gameObject.GetComponent<PostProcessVolume>();
+        ppVolume.enabled = !ppVolume.enabled;
         toggle = false;
         pausemenu.SetActive(false);
         AudioListener.pause = false;
