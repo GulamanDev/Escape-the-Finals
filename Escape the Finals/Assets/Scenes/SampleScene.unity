@@ -214,7 +214,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -664,7 +664,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &356357977
 Transform:
   m_ObjectHideFlags: 0
@@ -1984,6 +1984,7 @@ GameObject:
   m_Component:
   - component: {fileID: 918669966}
   - component: {fileID: 918669967}
+  - component: {fileID: 918669968}
   m_Layer: 0
   m_Name: SolidCollider
   m_TagString: Untagged
@@ -2027,6 +2028,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &918669968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918669965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f44223fb640bfe4c9f3adf7b3049467, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Test
+  levelNumber: 2
 --- !u!1 &933594018
 GameObject:
   m_ObjectHideFlags: 0
