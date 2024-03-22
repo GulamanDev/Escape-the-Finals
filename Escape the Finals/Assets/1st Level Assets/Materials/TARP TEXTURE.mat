@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TARP TEXTURE
+  m_Shader: {fileID: 4800000, guid: c7287ed1a8c702f49b4c2ba4fe4cdc03, type: 3}
+  m_Parent: {fileID: 2100000, guid: 08434a09e418aed4b8e5b12c1eddba4d, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _Anisotropy: 0
+    - _Metalness: 0
+    - _Roughness: 1
+    m_Colors:
+    - _AlbedoColor: {r: 1, g: 0.77254903, b: 0, a: 1}
+  m_BuildTextureStacks: []
