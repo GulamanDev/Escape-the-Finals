@@ -10,7 +10,7 @@ public class PickupKey : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-       if (other.CompareTag("MainCamera"))
+       if (other.CompareTag("Player"))
         {
             inttext.SetActive(true);
             interactable = true;
@@ -18,7 +18,7 @@ public class PickupKey : MonoBehaviour
     }
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("MainCamera"))
+        if (other.CompareTag("Player"))
         {
             inttext.SetActive(false);
             interactable = false;
