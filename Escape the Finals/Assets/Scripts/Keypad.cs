@@ -21,6 +21,7 @@ public class Keypad : MonoBehaviour
     public GameObject enterButton;
     public GameObject exitButton;
     public GameObject keypad;
+    public GameObject door;
     public SC_FPSController playerScript;
 
     public void b1()
@@ -82,6 +83,8 @@ public class Keypad : MonoBehaviour
             Cursor.lockState = CursorLockMode.Locked;
             charHolder.text = null;
 
+            //  Finds GameObject named "door" and grabs its component <DoorNew.cs>
+            GameObject.Find("door").GetComponent<DoorNew>().UnlockDoor();
             Debug.Log("Success");   //  activate the door or smth
         }
         else
