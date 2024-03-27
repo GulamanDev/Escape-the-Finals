@@ -7,6 +7,7 @@ public class TriggerKeypad : MonoBehaviour
 {
     public GameObject intText, keypad;
     public bool interactable, toggle;
+    public SC_FPSController playerScript;
 
     void OnTriggerStay(Collider other)
     {
@@ -30,20 +31,16 @@ public class TriggerKeypad : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                toggle = !toggle;
-
-                if (toggle == true)
-                {
-                    keypad.SetActive(true);
-                }
-
-                if (toggle == false)
-                {
-                    Debug.Log("Not Pressed");
-                }
-
+                PostProcessVolume ppVolume = Camera.main.gameObject.GetComponent<PostProcessVolume>();
+                ppVolume.enabled = !ppVolume.enabled;
+                keypad.SetActive(true);
                 intText.SetActive(false);
                 interactable = false;
+                AudioListener.pause = true;
+                Time.timeScale = 0;
+                playerScript.enabled = false;
+                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.None;
             }
         }
     }

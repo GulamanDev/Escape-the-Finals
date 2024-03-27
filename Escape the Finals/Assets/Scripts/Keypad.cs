@@ -23,17 +23,6 @@ public class Keypad : MonoBehaviour
     public GameObject keypad;
     public SC_FPSController playerScript;
 
-    public void Awake()
-    {
-        PostProcessVolume ppVolume = Camera.main.gameObject.GetComponent<PostProcessVolume>();
-        ppVolume.enabled = !ppVolume.enabled;
-        AudioListener.pause = true;
-        Time.timeScale = 0;
-        playerScript.enabled = false;
-        Cursor.visible = true;
-        Cursor.lockState = CursorLockMode.None;
-    }
-
     public void b1()
     {
         charHolder.text += "1";
@@ -82,6 +71,7 @@ public class Keypad : MonoBehaviour
     {
         if (charHolder.text == "1234")  //  keypad password
         {
+            charHolder.text = "CORRECT";
             PostProcessVolume ppVolume = Camera.main.gameObject.GetComponent<PostProcessVolume>();
             ppVolume.enabled = !ppVolume.enabled;
             keypad.SetActive(false);
@@ -90,6 +80,7 @@ public class Keypad : MonoBehaviour
             playerScript.enabled = true;
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Locked;
+            charHolder.text = null;
 
             Debug.Log("Success");   //  activate the door or smth
         }
