@@ -2682,6 +2682,10 @@ MonoBehaviour:
   button0: {fileID: 370457157}
   clearButton: {fileID: 230945901}
   enterButton: {fileID: 1253763979}
+  exitButton: {fileID: 0}
+  keypad: {fileID: 0}
+  door: {fileID: 0}
+  playerScript: {fileID: 0}
 --- !u!1 &280713750 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8108751711831407554, guid: 5791998e451fb404ba8bb295d1996cf3, type: 3}
@@ -12253,7 +12257,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1389804313
 Transform:
   m_ObjectHideFlags: 0
@@ -16402,7 +16406,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1648195314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16585,7 +16589,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1668572019
 Transform:
   m_ObjectHideFlags: 0

@@ -156,7 +156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loadingScreen: {fileID: 724354056}
-  sceneName: SampleScene
+  sceneName: Tutorial
 --- !u!114 &118182863
 MonoBehaviour:
   m_ObjectHideFlags: 0
