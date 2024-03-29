@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Rendering.PostProcessing;
+using UnityEngine.SceneManagement;
 
 public class Keypad : MonoBehaviour
 {
@@ -91,7 +92,7 @@ public class Keypad : MonoBehaviour
 
             //  Finds GameObject named "door" and grabs its component <DoorNew.cs>
             GameObject.Find("door").GetComponent<DoorNew>().UnlockDoor();
-            Debug.Log("Success");   //  activate the door or smth
+            Debug.Log("Success.");
         }
         else
         {
