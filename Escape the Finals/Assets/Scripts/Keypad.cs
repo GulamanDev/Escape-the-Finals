@@ -68,9 +68,15 @@ public class Keypad : MonoBehaviour
     {
         charHolder.text = null;
     }
+    //  Couldn't figure it out in 20 mins so i gave up
+/*    IEnumerator ShowError(string errorText)
+    {
+        yield return new WaitForSeconds(1);
+        charHolder.text = null;
+    }*/
     public void enterEvent()
     {
-        if (charHolder.text == "1234")  //  keypad password
+        if (charHolder.text == "17703")  //  keypad password
         {
             charHolder.text = "CORRECT";
             PostProcessVolume ppVolume = Camera.main.gameObject.GetComponent<PostProcessVolume>();
@@ -89,6 +95,8 @@ public class Keypad : MonoBehaviour
         }
         else
         {
+            /*const string errorMessage = "ERROR";
+            StartCoroutine(ShowError(errorMessage));*/
             charHolder.text = null;
         }
     }

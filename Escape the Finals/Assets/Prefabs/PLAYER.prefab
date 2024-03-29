@@ -121,6 +121,7 @@ GameObject:
   - component: {fileID: 1808093539890203051}
   - component: {fileID: 4066814355147857276}
   - component: {fileID: 5378528928329441214}
+  - component: {fileID: 3829951857708218552}
   m_Layer: 0
   m_Name: Camera
   m_TagString: MainCamera
@@ -176,7 +177,7 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 1000
-  field of view: 26.991467
+  field of view: 40
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -279,6 +280,27 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
+--- !u!65 &3829951857708218552
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1322089636218963816}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.31184646, y: 0.3379771, z: 2.6132164}
+  m_Center: {x: 0.020353954, y: -0.11273956, z: 1.6967567}
 --- !u!1 &2892784978641741909
 GameObject:
   m_ObjectHideFlags: 0
