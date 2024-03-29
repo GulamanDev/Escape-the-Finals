@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class door : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class door : MonoBehaviour
     public bool interactable, toggle;
     public Animator doorAnim;
 
+    //SHows e
     void OnTriggerStay(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -16,6 +18,8 @@ public class door : MonoBehaviour
             interactable = true;
         }
     }
+
+    //E gone
     void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -24,28 +28,36 @@ public class door : MonoBehaviour
             interactable = false;
         }
     }
+
     void Update()
     {
+        //interacts with door
         if (interactable == true)
         {
+            //Press E on door
             if (Input.GetKeyDown(KeyCode.E))
             {
+                //WHen the player has the key
                 if (key.active == false)
                 {
+                    //switches to next scene
                     toggle = !toggle;
                     if (toggle == true)
                     {
-                        doorAnim.ResetTrigger("close");
-                        doorAnim.SetTrigger("open");
+                        SceneManager.LoadScene("Level2");
+                        //doorAnim.ResetTrigger("close");
+                        //doorAnim.SetTrigger("open");
                     }
-                    if (toggle == false)
-                    {
-                        doorAnim.ResetTrigger("open");
-                        doorAnim.SetTrigger("close");
-                    }
+                    //discard code
+                    //if (toggle == false)
+                    //{
+                        //doorAnim.ResetTrigger("open");
+                        //doorAnim.SetTrigger("close");
+                    //}
                     intText.SetActive(false);
                     interactable = false;
                 }
+                //WHen the player doesnt ahve the key
                 if (key.active == true)
                 {
                     lockedText.SetActive(true);

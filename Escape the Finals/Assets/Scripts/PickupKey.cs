@@ -8,6 +8,7 @@ public class PickupKey : MonoBehaviour
     public bool interactable;
 
 
+    //Views [E] when looked at
     private void OnTriggerStay(Collider other)
     {
        if (other.CompareTag("Player"))
@@ -16,6 +17,8 @@ public class PickupKey : MonoBehaviour
             interactable = true;
         }
     }
+
+    //deletes [E] when away
     private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -25,11 +28,12 @@ public class PickupKey : MonoBehaviour
         }
     }
 
+    //When picked up, key acquired
     void Update()
     {
         if(interactable == true)
         {
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.F))
             {
                 inttext.SetActive(false);
                 interactable=false;
