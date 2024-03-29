@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class door : MonoBehaviour
 {
-    public GameObject intText, key, lockedText;
+    public GameObject intText, key, lockedText, loadingScreen;
     public bool interactable, toggle;
     public Animator doorAnim;
 
@@ -44,6 +44,7 @@ public class door : MonoBehaviour
                     toggle = !toggle;
                     if (toggle == true)
                     {
+                        loadingScreen.SetActive(true);
                         SceneManager.LoadScene("Level2");
                         //doorAnim.ResetTrigger("close");
                         //doorAnim.SetTrigger("open");

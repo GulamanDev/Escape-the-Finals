@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DoorNew : MonoBehaviour
 {
-    public GameObject intText, lockedText;
+    public GameObject intText, lockedText, loadingScreen;
     public bool interactable, toggle, locked;
     public Animator doorAnim;
 
@@ -45,8 +46,8 @@ public class DoorNew : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                Debug.Log("IT WORKS");
-                //  Replace Debug.Log with the sceneloader to the next level
+                loadingScreen.SetActive(true);
+                SceneManager.LoadScene("Level3");
             }
         }
     }
