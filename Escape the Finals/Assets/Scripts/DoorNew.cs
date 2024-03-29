@@ -9,6 +9,7 @@ public class DoorNew : MonoBehaviour
     public GameObject intText, lockedText, loadingScreen;
     public bool interactable, toggle, locked;
     public Animator doorAnim;
+    public string sceneName;
 
     void OnTriggerStay(Collider other)
     {
@@ -47,7 +48,7 @@ public class DoorNew : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 loadingScreen.SetActive(true);
-                SceneManager.LoadScene("Level3");
+                SceneManager.LoadScene(sceneName);
             }
         }
     }

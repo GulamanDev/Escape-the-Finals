@@ -4574,11 +4574,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   intText: {fileID: 1192049178}
   lockedText: {fileID: 2141070545}
-  loadingScreen: {fileID: 0}
+  loadingScreen: {fileID: 1136135650}
   interactable: 0
   toggle: 0
   locked: 1
   doorAnim: {fileID: 0}
+  sceneName: Level3
 --- !u!1 &1192049178
 GameObject:
   m_ObjectHideFlags: 0
