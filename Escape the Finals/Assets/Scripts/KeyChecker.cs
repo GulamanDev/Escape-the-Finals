@@ -42,9 +42,9 @@ public class KeyChecker : MonoBehaviour
                     if (toggle == true)
                     {
                           Debug.Log("banana");
-/*                        loadingScreen.SetActive(true);*/
-                    //put the end scene here v
-/*                        SceneManager.LoadScene("Level2");*/
+                        /*                        loadingScreen.SetActive(true);*/
+                        //put the end scene here v
+                        SceneManager.LoadScene("End");
                     }
                     intText.SetActive(false);
                     interactable = false;
