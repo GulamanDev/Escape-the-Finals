@@ -8,10 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 3b2eba85cc1dddf40b8f5a49067457ec
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Test.unity
     guid: f6bfafdc16844e044b6ba6e3a8143abe
   - enabled: 1
@@ -25,9 +25,5 @@ EditorBuildSettings:
     guid: e035c4b25fa054d49a3e15df63449b09
   - enabled: 1
     path: Assets/Scenes/End.unity
-<<<<<<< Updated upstream
     guid: c3f59ce9360362d4980ca89abd636740
-=======
-    guid: f937a80cac9c2254494b4dd5e434a26d
->>>>>>> Stashed changes
   m_configObjects: {}
