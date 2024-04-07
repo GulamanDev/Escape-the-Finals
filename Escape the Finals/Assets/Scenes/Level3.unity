@@ -2313,7 +2313,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -2980491258343170663, guid: 39b2f4aa23825904485fd365bff73459, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -46.969955
+      value: -45.1
       objectReference: {fileID: 0}
     - target: {fileID: -2980491258343170663, guid: 39b2f4aa23825904485fd365bff73459, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2349,7 +2349,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2383811981203117690, guid: 39b2f4aa23825904485fd365bff73459, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -65.860245
+      value: -67.7
       objectReference: {fileID: 0}
     - target: {fileID: 2383811981203117690, guid: 39b2f4aa23825904485fd365bff73459, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2393,7 +2393,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7966221693370062498, guid: 39b2f4aa23825904485fd365bff73459, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 68.373535
+      value: 66.6
       objectReference: {fileID: 0}
     - target: {fileID: 7966221693370062498, guid: 39b2f4aa23825904485fd365bff73459, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5456,6 +5456,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6161579896798678618, guid: 9d0f471a12b643643839c9125107e1e5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6161579896798678618, guid: 9d0f471a12b643643839c9125107e1e5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6161579896798678618, guid: 9d0f471a12b643643839c9125107e1e5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6161579896798678618, guid: 9d0f471a12b643643839c9125107e1e5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -150.5571
