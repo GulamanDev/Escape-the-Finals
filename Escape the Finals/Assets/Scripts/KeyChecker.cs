@@ -56,6 +56,48 @@ public class KeyChecker : MonoBehaviour
                     StopCoroutine("disableText");
                     StartCoroutine("disableText");
                 }
+
+                if (key1.active == false && key2.active == true && key3.active == true)
+                {
+                    lockedText.SetActive(true);
+                    StopCoroutine("disableText");
+                    StartCoroutine("disableText");
+                }
+
+                if (key1.active == true && key2.active == false && key3.active == true)
+                {
+                    lockedText.SetActive(true);
+                    StopCoroutine("disableText");
+                    StartCoroutine("disableText");
+                }
+
+                if (key1.active == true && key2.active == true && key3.active == false)
+                {
+                    lockedText.SetActive(true);
+                    StopCoroutine("disableText");
+                    StartCoroutine("disableText");
+                }
+
+                if (key1.active == false && key2.active == false && key3.active == true)
+                {
+                    lockedText.SetActive(true);
+                    StopCoroutine("disableText");
+                    StartCoroutine("disableText");
+                }
+
+                if (key1.active == false && key2.active == true && key3.active == false)
+                {
+                    lockedText.SetActive(true);
+                    StopCoroutine("disableText");
+                    StartCoroutine("disableText");
+                }
+
+                if (key1.active == true && key2.active == false && key3.active == false)
+                {
+                    lockedText.SetActive(true);
+                    StopCoroutine("disableText");
+                    StartCoroutine("disableText");
+                }
             }
         }
     }
